@@ -1,13 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//Created by: msteph22
+// 3/16/21
 
-/**
- *
- * @author stephensmac
- */
 public class CreateEmployee {
     public static void main(String[] args) {
         //Create Objects
@@ -30,7 +23,6 @@ public class CreateEmployee {
         empThree.setIdNumber(81774);
         empThree.setDepartment("Manufacturing");
         empThree.setPosition("Engineer");
-        
         
         //Display Objects
         

@@ -1,14 +1,5 @@
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author stephensmac
- */
+//Created by: msteph22
+// 3/16/21
 
 //Write a class named Employee
 public class Employee {
@@ -27,10 +18,6 @@ public class Employee {
         this.department = department;
         this.position = position;
     }
-    //A constructor that accepts the following values as arguments and assigns
-    //them to the appropriate fields: employee's name and ID number. The department
-    //and position fields should be assigned an empty string ("")
-    
     
     //A no-arg constructor that assigns empty strings ("") to the name, department,
     //and position fields, and 0 to the idNumber field;
@@ -39,8 +26,7 @@ public class Employee {
         idNumber = 0;
         department = "";
         position = "";
-    }
-    
+    } 
     public void setName(String name) {
         this.name = name;
     }
@@ -68,5 +54,4 @@ public class Employee {
     public String getPosition(){
         return position;
     }
-
 }
